@@ -1,13 +1,50 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Days+One&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Abril Fatface';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: "Abril Fatface", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column; /* Align components vertically */
+  justify-content: flex-start; /* Start from the top */
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.login-body {
+  width: 140vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  background-image: url('./loginbg.jpg');
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.home-body {
+  width: 100vw; /* Full width of the viewport */
+  min-height: 100vh; /* Full height of the viewport */
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: flex-start; /* Align items at the top */
+  align-items: center;
+  position: relative;
 }

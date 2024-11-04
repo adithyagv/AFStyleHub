@@ -1,0 +1,88 @@
+/* Styling for the registration form */
+.register-body {
+    width: 140vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    background-image: url('./loginbg.jpg');
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    
+  
+  }
+  
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 0.95em;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 500;
+  }
+  
+  .r {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #333;
+    background-color: #f8f9fa;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:focus {
+    border-color: #000000;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+    background-color: #ffffff;
+  }
+  
+  .register-btn {
+    padding: 14px;
+    background: none;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1em;
+    position: relative;
+    left: 160px;
+    top: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .register-btn:hover {
+    background-color:rgb(3, 46, 3);
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 480px) {
+    .wrapper {
+      padding: 25px;
+    }
+  
+    h1 {
+      font-size: 1.8em;
+    }
+  
+    .register-btn {
+      font-size: 0.95em;
+    }
+  }
+  
