@@ -8,10 +8,7 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors({
-  origin: 'https://af-stylehub-backend.vercel.app' // Update this with your frontend URL
-}));
-
+app.use(cors());
 app.use(bodyParser.json());
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.url}`);
@@ -19,7 +16,7 @@ app.use((req, res, next) => {
 });
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect('mongodb://localhost:27017/fashionDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
@@ -27,7 +24,6 @@ mongoose.connect(process.env.MONGODB_URI, {
 }).catch((error) => {
   console.error('Error connecting to MongoDB:', error);
 });
-
 
 // User Schema and Model
 const userSchema = new mongoose.Schema({
