@@ -4,7 +4,7 @@ import { FaUser } from 'react-icons/fa';
 import { RiLockPasswordFill } from 'react-icons/ri';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
+const apiUrl = 'https://your-backend-url.vercel.app';
 const Login = () => {
   useEffect(() => {
     document.body.className = 'login';
@@ -22,7 +22,7 @@ const Login = () => {
     
     try {
       
-      const response = await axios.post('http://localhost:5000/login', { email, password });
+      const response = await axios.post('${apiUrl}/login', { email, password });
 
       
       if (response.data.success) {
