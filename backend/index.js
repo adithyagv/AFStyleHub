@@ -8,7 +8,7 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors({ origin: 'https://af-style-hub-backend.vercel.app/'}));
+app.use(cors());
 app.use(bodyParser.json());
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.url}`);
