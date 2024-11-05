@@ -22,7 +22,7 @@ const Login = () => {
     
     try {
       
-      const response = await axios.post('http://localhost:5000/login', { email, password });
+      const response = await axios.post('https://af-stylehub-backend.vercel.app/login', { email, password });
 
       
       if (response.data.success) {

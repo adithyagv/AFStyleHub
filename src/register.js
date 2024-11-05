@@ -29,7 +29,7 @@ const Register = () => {
     try {
       // Save user data to the database (replace this with your backend API call)
       // Here, we use a placeholder API endpoint
-      const response = await fetch('https://your-backend-url.vercel.app', {
+      const response = await fetch('https://af-stylehub-backend.vercel.app/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
