@@ -21,21 +21,6 @@ body {
   overflow-y: auto;
 }
 
-.login-body {
-  width: 140vw; /* Full width of the viewport */
-  height: 100vh; /* Full height of the viewport */
-  background-image: url('./loginbg.jpg');
-  background-size: cover; /* Ensure the image covers the entire area */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  display: flex;
-  flex-direction: column; /* Arrange children vertically */
-  justify-content: center;
-  align-items: center;
-  position: relative;
-
-}
-
 .home-body {
   width: 100vw; /* Full width of the viewport */
   min-height: 100vh; /* Full height of the viewport */

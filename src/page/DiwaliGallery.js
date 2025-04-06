@@ -1,18 +1,19 @@
 // DiwaliGallery.js
 import React, { useState } from 'react';
 import './diwaliGallery.css';
-import lehenga from "./lehenga.jpg";
-import saree from "./saree.jpg";
-import kurta from "./kurta.jpg";
-import i4 from "./i4.jpg";
-import i5 from "./i5.jpg";
-import i6 from "./i6.jpg";
-import i7 from "./i7.jpg";
-import i8 from "./i8.jpg";
-import i9 from "./i9.jpg";
-import i10 from "./i10.jpg";
-import i11 from "./i11.jpg";
-import i12 from "./i12.jpg";
+import lehenga from "./images/lehenga.jpg";
+import saree from "./images/saree.jpg";
+import kurta from "./images/kurta.jpg";
+import i4 from "./images/i4.jpg";
+import i5 from "./images/i5.jpg";
+import i6 from "./images/i6.jpg";
+import i7 from "./images/i7.jpg";
+import i8 from "./images/i8.jpg";
+import i9 from "./images/i9.jpg";
+import i10 from "./images/i10.jpg";
+import i11 from "./images/i11.jpg";
+import i12 from "./images/i12.jpg";
+
 
 
 const diwaliOutfits = [

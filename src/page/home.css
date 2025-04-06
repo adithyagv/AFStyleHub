@@ -13,7 +13,18 @@ body {
   align-items: center;
   overflow-x: hidden;
 }
-
+.home-body {
+  width: 100vw; /* Full width of the viewport */
+  min-height: 100vh; /* Full height of the viewport */
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: flex-start; /* Align items at the top */
+  align-items: center;
+  position: relative;
+}
 /* Slider Styling */
 .slider {
   position: relative;

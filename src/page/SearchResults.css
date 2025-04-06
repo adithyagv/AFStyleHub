@@ -1,7 +1,7 @@
 .search-results {
   width: 140vw; /* Full width of the viewport */
     height: 100vh; /* Full height of the viewport */
-    background-image: url('./loginbg.jpg');
+    background-image: url('./images/loginbg.jpg');
     background-size: cover; /* Ensure the image covers the entire area */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */

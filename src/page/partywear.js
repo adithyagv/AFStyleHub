@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
 import './partywear.css';
-import k1 from "./k1.jpg";
-import k2 from "./k2.jpg";
-import k3 from "./k3.jpg";
-import k4 from "./k4.jpg";
-import k5 from "./k5.jpg";
-import k6 from "./k6.jpg";
-import k7 from "./k7.jpg";
-import k8 from "./k8.jpg";
-import k9 from "./k9.jpg";
-import k10 from "./k10.jpg";
-import k11 from "./k11.jpg";
-import k12 from "./k12.jpg";
+import k1 from "./images/k1.jpg";
+import k2 from "./images/k2.jpg";
+import k3 from "./images/k3.jpg";
+import k4 from "./images/k4.jpg";
+import k5 from "./images/k5.jpg";
+import k6 from "./images/k6.jpg";
+import k7 from "./images/k7.jpg";
+import k8 from "./images/k8.jpg";
+import k9 from "./images/k9.jpg";
+import k10 from "./images/k10.jpg";
+import k11 from "./images/k11.jpg";
+import k12 from "./images/k12.jpg";
+
 const partyOutfits = [
   {
     id: 1,

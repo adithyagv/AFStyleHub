@@ -1,13 +1,13 @@
 import React,{useState} from "react";
 import Login from "./page/login"
-import Register from './register';
+import Register from './page/register';
 import Home from "./page/home"
-import SearchResults from './SearchResults';
+import SearchResults from './page/SearchResults';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
-import DiwaliGallery from './DiwaliGallery';
-import Formals from './formals';
-import Partywear from './partywear';
+import DiwaliGallery from './page/DiwaliGallery';
+import Formals from './page/formals';
+import Partywear from './page/partywear';
 function App() {
   const [savedOutfits, setSavedOutfits] = useState([]);
   return (

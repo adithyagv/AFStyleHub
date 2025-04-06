@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './register.css'; // Add custom CSS styles for the registration form
+import './register.css'; 
 import { useNavigate } from 'react-router-dom';
 
 const Register = () => {
@@ -9,11 +9,11 @@ const Register = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
   const navigate = useNavigate();
 
-  // Function to handle form submission
+  
   const handleRegister = async (e) => {
     e.preventDefault();
 
-    // Simple validation to check if passwords match
+    
     if (password !== confirmPassword) {
       alert('Passwords do not match. Please try again.');
       return;
@@ -40,7 +40,7 @@ const Register = () => {
       if (response.ok) {
         alert('Registration successful!');
         // Redirect to the login page
-        navigate('/login');
+        navigate('/');
       } else {
         alert('Registration failed. Please try again.');
       }

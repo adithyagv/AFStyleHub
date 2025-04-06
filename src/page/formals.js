@@ -1,18 +1,17 @@
 import React, { useState } from 'react';
 import './formals.css';
-import j1 from "./j1.jpg";
-import j2 from "./j2.jpg";
-import j3 from "./j3.jpg";
-import j4 from "./j4.jpg";
-import j5 from "./j5.jpg";
-import j6 from "./j6.jpg";
-import j7 from "./j7.jpg";
-import j8 from "./j8.jpg";
-import j9 from "./j9.jpg";
-import j10 from "./j10.jpg";
-import j11 from "./j11.jpg";
-import j12 from "./j12.jpg";
-
+import j1 from "./images/j1.jpg";
+import j2 from "./images/j2.jpg";
+import j3 from "./images/j3.jpg";
+import j4 from "./images/j4.jpg";
+import j5 from "./images/j5.jpg";
+import j6 from "./images/j6.jpg";
+import j7 from "./images/j7.jpg";
+import j8 from "./images/j8.jpg";
+import j9 from "./images/j9.jpg";
+import j10 from "./images/j10.jpg";
+import j11 from "./images/j11.jpg";
+import j12 from "./images/j12.jpg";
 
 
 const formalOutfits = [
